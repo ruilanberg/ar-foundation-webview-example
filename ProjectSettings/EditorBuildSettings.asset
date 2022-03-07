@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Anchors.unity
+    guid: 5cba9114a192a46a7aef31da62316e39
+  - enabled: 0
     path: Assets/Vuplex/ARWebViewExample/Scenes/ARWebViewDemoScene.unity
     guid: fb21a7737fa12492a97acbb3086e6b14
   m_configObjects:
