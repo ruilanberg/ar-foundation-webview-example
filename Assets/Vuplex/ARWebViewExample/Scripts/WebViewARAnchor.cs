@@ -27,7 +27,7 @@ class WebViewARAnchor : MonoBehaviour {
         // Wait for the WebViewPrefab to initialize, because the WebViewPrefab.WebView property
         // is null until the prefab has initialized.
         await webViewPrefab.WaitUntilInitialized();
-        webViewPrefab.WebView.LoadUrl("https://www.google.com");
+        webViewPrefab.WebView.LoadUrl("https://antikytera-files-dev.s3.eu-west-3.amazonaws.com/sub_1/mp4/fea06949-555f-4a36-b53e-90a08bae9510_2.mp4");
     }
 
     void OnDestroy() {
